@@ -3,8 +3,8 @@ class EnterPresser < Formula
 
   desc "Wait for a timer, then press Enter in the focused app"
   homepage "https://github.com/genericJE/enter-presser"
-  url "https://github.com/genericJE/enter-presser/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  url "https://github.com/genericJE/enter-presser/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "1f65739980acdbca10e8213aefe29c8ebe5c2aad592d4175fdfbac32bdf43b5f"
   license "MIT"
 
   depends_on "python@3.13"
@@ -15,7 +15,7 @@ class EnterPresser < Formula
 
   test do
     assert_match "Press Enter/Return", shell_output("#{bin}/enter-presser --help")
-    assert_match "Dry run", shell_output("#{bin}/enter-presser -t 0 --dry-run")
+    assert_match "Dry run", shell_output("#{bin}/enter-presser 0 --dry-run")
   end
 end
 
