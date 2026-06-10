@@ -3,8 +3,8 @@ class EnterPresser < Formula
 
   desc "Wait for a timer, then press Enter in the focused app"
   homepage "https://github.com/genericJE/enter-presser"
-  url "https://github.com/genericJE/enter-presser/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "1f65739980acdbca10e8213aefe29c8ebe5c2aad592d4175fdfbac32bdf43b5f"
+  url "https://github.com/genericJE/enter-presser/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "5a6ef9f0a98ef42957d00c20483d7d519e5d377bb8e3fedba086a49cddb693f3"
   license "MIT"
 
   depends_on "python@3.13"
