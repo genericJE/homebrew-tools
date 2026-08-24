@@ -1,8 +1,8 @@
 class Coffeinate < Formula
   desc "Keep your Mac awake, with style"
   homepage "https://github.com/genericJE/coffeinate"
-  url "https://github.com/genericJE/coffeinate/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "34addb203cf87450345d5da5149d7b40e761d9162dfcf8fb6bab042816d85102"
+  url "https://github.com/genericJE/coffeinate/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "591304c430284003ebc1fc8f75d2d1cc57c74e1f9dec9b96cbb1e3283a10a9b8"
   license "MIT"
 
   depends_on :macos
