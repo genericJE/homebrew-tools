@@ -3,7 +3,7 @@ class Readaloud < Formula
   homepage "https://github.com/genericJE/readaloud"
   url "https://github.com/genericJE/readaloud/releases/download/v1.0.0/readaloud-1.0.0-arm64.tar.xz"
   version "1.0.0"
-  sha256 "273e29674efc264cb80bbc047176ce7d9c6842edfb565ab946162975b47ab56f"
+  sha256 "d6d5b055d91929fcf7aff302c9b9eba67ae31e419158a79b5c92240c72f770f9"
   license "MIT"
 
   depends_on arch: :arm64
@@ -26,7 +26,7 @@ class Readaloud < Formula
 
   def caveats
     <<~EOS
-      The Kokoro model weights (about 610MB) download on first run to
+      The Kokoro model weights (about 300MB) download on first run to
         ~/.cache/huggingface
       Set HF_HOME to keep that cache elsewhere.  It is not removed by
       `brew uninstall`.
