@@ -1,9 +1,9 @@
 class Readaloud < Formula
   desc "Read-along terminal reader with Kokoro TTS and word-level highlighting"
   homepage "https://github.com/genericJE/readaloud"
-  url "https://github.com/genericJE/readaloud/releases/download/v1.0.2/readaloud-1.0.2-arm64.tar.xz"
-  version "1.0.2"
-  sha256 "af9569566445c67981c4ce2e02ace5c311e1bbb069c689564347cc1346780f70"
+  url "https://github.com/genericJE/readaloud/releases/download/v1.1.0/readaloud-1.1.0-arm64.tar.xz"
+  version "1.1.0"
+  sha256 "93b88b6f9729624735a74ddcc30f94ec970a9b853f4e2706663c8d6a0fb417c9"
   license "MIT"
 
   depends_on arch: :arm64
@@ -30,6 +30,10 @@ class Readaloud < Formula
         ~/.cache/huggingface
       Set HF_HOME to keep that cache elsewhere.  It is not removed by
       `brew uninstall`.
+
+      `readaloud -md notes.md` draws Markdown with mdcat and reads its tables
+      one cell at a time.  mdcat is optional and not installed with readaloud:
+        brew install mdcat
     EOS
   end
 
