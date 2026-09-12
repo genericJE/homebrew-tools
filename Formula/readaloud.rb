@@ -1,9 +1,9 @@
 class Readaloud < Formula
   desc "Read-along terminal reader with Kokoro TTS and word-level highlighting"
   homepage "https://github.com/genericJE/readaloud"
-  url "https://github.com/genericJE/readaloud/releases/download/v1.2.2/readaloud-1.2.2-arm64.tar.xz"
-  version "1.2.2"
-  sha256 "20a48ef6e09362911eb0a3f4c404c559a79ca22224980f1c9b2e907ae27f1566"
+  url "https://github.com/genericJE/readaloud/releases/download/v1.2.3/readaloud-1.2.3-arm64.tar.xz"
+  version "1.2.3"
+  sha256 "3c4929a58b336a1cb734214a51dc4f477887141bfffe066b03b9da239733fe73"
   license "MIT"
 
   depends_on arch: :arm64
