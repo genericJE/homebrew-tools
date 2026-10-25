@@ -31,7 +31,7 @@ class Readaloud < Formula
       Set HF_HOME to keep that cache elsewhere.  It is not removed by
       `brew uninstall`.
 
-      `readaloud -md notes.md` draws Markdown with mdcat and reads its tables
+      `readaloud notes.md` draws Markdown with mdcat and reads its tables
       one cell at a time.  mdcat is optional and not installed with readaloud:
         brew install mdcat
     EOS
