@@ -1,4 +1,6 @@
 class Uploadserver < Formula
+  include Language::Python::Shebang
+
   desc "Minimal upload-only HTTP server with drag-and-drop web UI"
   homepage "https://github.com/genericJE/uploadserver"
   url "https://github.com/genericJE/uploadserver/archive/refs/tags/v1.1.1.tar.gz"
