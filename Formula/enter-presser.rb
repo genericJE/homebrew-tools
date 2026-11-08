@@ -7,7 +7,7 @@ class EnterPresser < Formula
   sha256 "5a6ef9f0a98ef42957d00c20483d7d519e5d377bb8e3fedba086a49cddb693f3"
   license "MIT"
 
-  depends_on "python@3.13"
+  depends_on "python@3.15"
 
   def install
     virtualenv_install_with_resources
